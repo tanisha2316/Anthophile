@@ -1,2 +1,2 @@
 # Anthophile
-I developed this website using HTML and CSS.
+I created this website using HTML and CSS.
