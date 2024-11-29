@@ -1,0 +1,737 @@
+.* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+.rrward{
+    display: flex;
+
+}
+.help{
+    font-size: 30px;
+}
+
+.navbar{
+    height: 60px;
+    
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 55px;
+    width: 129px;
+}
+
+.logo{
+    
+    background-size: cover;
+    height: 50px;
+    width: 132px;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* box 2 */
+
+.add-first{
+     color:#cccccc;
+     font-size: 0.90rem;
+     margin-left: 15px;
+}
+
+.add-second{
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* box 3 */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:orange;
+    width: 620px;
+    height:40px;
+    border-radius: 4px;
+}
+
+.search-select{
+    background-color:#f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color:#0f1111;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+/* box4 */
+span{
+    font-size: 0.8rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box 6 */
+.nav-liked i{
+    font-size: 20px;
+}
+
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #40e266;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-expenses{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.ANtho{
+    height: 55px;
+    width: 130px;
+}
+.img-1{
+ 
+    height:500px;
+    width: 100%;
+}
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #131921;
+    padding: 10px 20px;
+}
+
+/* Logo Section */
+.logo-img {
+    height: 60px;
+    width: auto;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin: 0 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.category-dropdown {
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-right: 10px;
+    border-radius: 10%;
+}
+
+.search-input {
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    width: 980px;
+    border-left: none;
+    margin-left: 5px;
+}
+
+.search-button {
+    background-color: #ff9900;
+    color: white;
+    border: 1px solid #ff9900;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+/* Navbar Right Section */
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size:15px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Cart Icon */
+.cart {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.cart-icon {
+    margin-right: 5px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .search-bar {
+        width: 100%;
+        margin: 0;
+    }
+
+    .search-input {
+        width: 80%;
+    }
+
+    .navbar-right {
+        display: none; /* For mobile, you can hide the right links or make them into a hamburger menu */
+    }
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+}
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Plant Panel Styles */
+.plant-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9f7e9;  /* Light green background */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.panel-title {
+    font-size: 28px;
+    
+    color: #2c6b2f;  /* Dark green color */
+    margin-bottom: 10px;
+}
+
+.panel-subtitle {
+    font-size: 20px;
+    font-style: italic;
+    color: #318432;  /* Lighter green color */
+    margin-bottom: 40px;
+}
+
+/* Plant Images Container */
+.plant-images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Individual Image Container */
+.image-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.plant-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect on Images */
+.image-container:hover .plant-image {
+    transform: scale(1.05);  /* Slight zoom effect */
+}
+
+/* Overlay with Thoughts on Plants */
+.thought-overlay {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .plant-images {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .image-container {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .panel-title {
+        font-size: 30px;
+    }
+
+    .panel-subtitle {
+        font-size: 18px;
+    }
+}
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Main section container */
+.planters-section {
+    padding: 40px 200px;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section Title */
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* Plant category styling */
+.plant-category {
+    margin-bottom: 40px;
+}
+
+.category-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2d6a4f;
+    margin-bottom: 20px;
+}
+
+/* Plant items styling */
+.plants {
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    
+}
+
+/* Individual plant item styling */
+.plant-item {
+    background-color: white;
+    
+    padding: 8px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plant-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.plant-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+  
+}
+
+.plant-name {
+    font-size: 15px;
+    text-align: left;
+    text-decoration:line-through;
+    
+ 
+}
+.ext{
+    text-align: left;
+    color: rgb(52, 186, 52);
+    font-size: 20px;
+}
+.plant-description {
+    font-size: 18px;
+    color: #555;
+    text-align: left;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .plants {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .plant-item {
+        width: 100%;
+        max-width: 350px;
+        margin-bottom: 30px;
+    }
+    
+}
+.new{
+    margin-top: 20px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:black;
+    
+}
+.help{
+    font-size: 20px;
+
+}
+.icons{
+   display:flex;
+    background-color: #838485;
+    align-items: center;
+    gap: 20px;
+}
+.value{
+    font-size: 20px;
+    color:  #073e14;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.hibiscus{
+    font-size: 30px;
+    font-weight: bold;
+    color: #073e14;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.star{
+   justify-content: left;
+}
+.decore{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.Stars{
+    font-size: 18px;
+    color: #555;
+    align-items: left;
+}
+.Trend{
+    font-size: 25px;
+    color:  #073e14;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+}
+.hibi{
+    border-radius: 50%;
+   
+    height: 200px;
+    width: 90%;
+
+}
+.hibi:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.reviews{
+    font-size: 30px;
+    color:  #073e14;
+}
+.rese{
+    display: flex;
+    gap:10px;
+}
+
+.t-1{
+    height: 300px;
+    gap:10px;
+    display: flex;
+}
+.bonsai{
+    color: #073e14;
+    font-weight: bold;
+    font-size: 20px;
+    cursor:pointer;
+
+}
+.decor{
+    display: flex;
+}
+.pots{
+    height: 200px;
+    width: 45%;
+}
+.tr-2{
+    font-size: 25px;
+    color:  #073e14;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.From{
+    height:350px;
+    width: 90%;
+    gap:10px;
+    
+}
+.trending{
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.read{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #f7f9f8;
+    background-color: black;
+    border-radius: 30%;
+    cursor: pointer;
+}
+.rea{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #f7f9f8;
+    background-color: black;
+    cursor: pointer;
+    
+  
+
+}
+.re{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #f7f9f8;
+    background-color: rgb(215, 211, 211);
+  cursor: pointer;
+
+}
+.t-1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.pots:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.From:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+footer{
+    
+}
+.foot-panel-1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.89rem;
+    cursor:default;
+}
+
+.foot-panel-2{
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top: 28px;
+    cursor:default;
+}
+
+ul a{
+    display: block;
+    font-size: 1.1rem;
+    margin-top: 19px;
+    color: #dddddd;
+    cursor:default;
+}
+
+.foot-panel-3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel-3 .icons01{
+    cursor:pointer;
+}
+
+.foot-panel-3 .icons01:hover{
+    
+    transform: scale(1.5);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    color: #318432;
+}
+
+
+.foot-panel-4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.pages{   
+    padding-top: 25px;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+   background-color:  #0f1111;
+}
+.ft{
+    border-radius: 50%;
+    height: 50px;
+}
+.img-1{
+    
